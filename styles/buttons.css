@@ -1,0 +1,28 @@
+.callForAction{
+    background-color:#1EAE9E;
+    height:3rem;
+    width:20rem;
+    border: none;
+   color: #ece8e8;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menuNav{
+  display: block;
+  color: #ece8e8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menuList {
+   float: left;
+   width:20%;
+  }
+li a:hover {
+  background-color: #da77d185;
+}
+button:focus{
+    outline: none;
+}
