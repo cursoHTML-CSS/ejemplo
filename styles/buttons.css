@@ -20,9 +20,3 @@
    float: left;
    width:20%;
   }
-li a:hover {
-  background-color: #da77d185;
-}
-button:focus{
-    outline: none;
-}
