@@ -36,3 +36,9 @@ body{
     height: 100%;
     overflow-x: hidden;
 }
+li a:hover {
+    background-color: #da77d185;
+  }
+  button:focus{
+      outline: none;
+  }
