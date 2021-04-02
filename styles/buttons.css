@@ -20,3 +20,25 @@
    float: left;
    width:20%;
   }
+  .submit{
+    background-color:#1EAE9E;
+    height:2rem;
+    width:15rem;
+    border: none;
+   color: #ece8e8;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .cancel{
+    background-color:#ece8e8;
+    height:2rem;
+    width:15rem;
+    border: #1EAE9E solid 1px;
+   color: #1EAE9E;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
