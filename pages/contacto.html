@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="../styles/buttons.css">
   <link rel="stylesheet" type="text/css" href="../styles/headers.css">  
   <link rel="stylesheet" tye="text/css" href="../styles/layout.css">
+  <link rel="stylesheet" tye="text/css" href="../styles/inputs.css">
   
   <script src="https://use.fontawesome.com/d4bc4843e4.js"></script>
   <script src="../scripts/index.js"></script>
@@ -21,25 +22,57 @@
     <h1>Formulario Para Practicar</h1>
     <p>Aca tienen distintos elementos para practicar e incluso con su validacion para dar preview del Modulo 2</p>  
     </div>
-    <div>
-      <form name="formExample" >
-      <label></label>
-      <input onchange="return validateInput()" id="nameExample" placeholder="Name..." ></input>
-      <label></label>
-      <input type="checkbox"></input>
-      <label></label>
-      <input type="radio"/>
-      <label></label>
-         <select>
+    
+      <form id="exampleForm" onsubmit="return validate()">
+        <div style="height: 100%;margin: 0 10vw 0 10vw;">
+          <div style="padding: 1rem;">
+            <label class="labelForm">FullName:</label>
+            <input name="exampleInput" class="inputExample" onchange="return validateInput()" id="nameExample" placeholder="Name..." ></input>
+            <span id="errorName" class="error"></span> 
+          </div>
+          <div style="padding: 1rem;">
+      <label class="labelForm">Lenguajes:</label>
+      <input name="checkboxExample" onchange="return validateCheckBoxRadio()"  class="inputCheckbox" type="checkbox" id="exampleCheckbox1" value="1"></input>
+      <label for="exampleCheckbox1" >Checkbox 1</label>
+      <input name="checkboxExample" onchange="return validateCheckBoxRadio()"  class="inputCheckbox" id="exampleCheckbox2" type="checkbox" value="2"></input>
+      <label for="exampleCheckbox3" >Checkbox 2</label>
+      <input name="checkboxExample" onchange="return validateCheckBoxRadio()"  class="inputCheckbox" id="exampleCheckbox3" type="checkbox" value="3"></input>
+      <label for="exampleCheckbox3" >Checkbox 3</label>
+    </div>
+    <div style="padding: 1rem;">
+      <label class="labelForm">Intereses:</label>
+      <div>
+      <input id="exampleRadio1" onchange="return validateCheckBoxRadio()" class="inputRadio" name="radioExample" value="1" type="radio"></input>
+      <label for="exampleRadio1" >Radio 1</label>
+      <input name="radioExample" onchange="return validateCheckBoxRadio()"  class="inputRadio" id="exampleRadio2" value="2" type="radio"></input>
+      <label for="exmapleRadio2" >Radio 2</label>
+      <input id="exmapleRadio3" onchange="return validateCheckBoxRadio()"  class="inputRadio" name="radioExample3" value="3" type="radio"></input>
+      <label for="exmapleRadio3" >Radio 3</label>
+    </div>
+      </div>
+      <div style="padding: 1rem;">
+      <label class="labelForm">Cosas:</label>
+         <select name="exampleSelect" class="selectExample" >
         <option>1</option>
         <option>2</option>
       </select>
-      <label></label>
-     <textarea></textarea>
-     <button type="submit" class="submit">Submit</button>
-     <button type="reset" class="cancel">Cancel</button>
-    </form>
     </div>
+    <div style="padding: 1rem;">
+      <label class="labelForm" >Escribir Mucho:</label>
+     <textarea id="escribirExample" name="exampleTextArea" onchange="return validateTextArea()" class="textAreaExample"></textarea>
+     <span id="errorEscribir" class="error"></span> 
+    </div>
+    <div style="margin-left: 15vw;padding: 1rem;">
+     <button type="submit" id="submitButton"  onsubmit="return onSubmit()" class="submit" style="margin-right: 1rem;margin-bottom: 1rem;">Submit</button>
+    <button type="reset" id="cancelButton" class="cancel">Cancel</button>
+     </div> 
+     <script>
+       //Sets button to disabled
+        document.getElementById("submitButton").disabled=true;
+  </script>
+    </div>
+    </form>
+    <h3></h3>
   </div>
 </body>
 </html>

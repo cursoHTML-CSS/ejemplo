@@ -9,3 +9,9 @@
     padding: 1rem;
     text-align: center;
 }
+.success{
+    color:#003C66;
+}
+.error{
+    color:#9A0033;
+}

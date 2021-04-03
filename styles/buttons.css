@@ -42,3 +42,35 @@
    border-radius: 5px;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
+  .submit:focus{
+    outline: none;
+
+
+  }
+  .submit:disabled{
+    background-color:#1eae9e80;
+  }
+  .submit:active{
+    outline: none;
+    color:#1EAE9E;
+    background-color: #ece8e8;
+  }
+  .submit:focus{
+    outline: none;
+  }  
+.cancel:active{
+    outline: none;
+    background-color:#1EAE9E;
+    color: #ece8e8;
+  }
+  .cancel:focus{
+    outline: none;
+  }
+  .menuNav:hover{
+      background-color: #da77d185;
+  }
+  .callForAction:focus{
+    outline: none;
+    height:3.5rem;
+    width:20.5rem;
+  }

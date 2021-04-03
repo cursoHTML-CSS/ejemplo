@@ -1,0 +1,47 @@
+.inputExample{
+    border-radius: 5px;
+    width:15rem;
+    height: 2rem;
+    border:none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.selectExample{
+    border-radius: 5px;
+    width:15rem;
+    height: 2rem;
+    border:none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: white;
+    outline: none;
+}
+.inputCheckbox{
+    border: none;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;    
+}
+.inputRadio{
+    border:none;
+
+}
+.textAreaExample{
+    border-radius: 5px;
+    max-width:15rem;
+    max-height: 5rem;
+    border:none;
+    font-family: inherit;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.inputExample:focus{
+    border:#9A0033 solid 2px;
+    outline: none;
+    
+}
+.textAreaExample:focus{
+    border:#9A0033 solid 2px;
+    outline: none;
+    
+}
+.inputCheckbox:checked{
+    background:#003C66;
+}
