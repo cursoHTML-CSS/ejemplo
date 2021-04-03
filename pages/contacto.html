@@ -46,7 +46,7 @@
       <label for="exampleRadio1" >Radio 1</label>
       <input name="radioExample" onchange="return validateCheckBoxRadio()"  class="inputRadio" id="exampleRadio2" value="2" type="radio"></input>
       <label for="exmapleRadio2" >Radio 2</label>
-      <input id="exmapleRadio3" onchange="return validateCheckBoxRadio()"  class="inputRadio" name="radioExample3" value="3" type="radio"></input>
+      <input id="exmapleRadio3" onchange="return validateCheckBoxRadio()"  class="inputRadio" name="radioExample" value="3" type="radio"></input>
       <label for="exmapleRadio3" >Radio 3</label>
     </div>
       </div>
@@ -63,13 +63,9 @@
      <span id="errorEscribir" class="error"></span> 
     </div>
     <div style="margin-left: 15vw;padding: 1rem;">
-     <button type="submit" id="submitButton"  onsubmit="return onSubmit()" class="submit" style="margin-right: 1rem;margin-bottom: 1rem;">Submit</button>
+     <button disabled type="submit" id="submitButton"  onsubmit="return onSubmit()" class="submit" style="margin-right: 1rem;margin-bottom: 1rem;">Submit</button>
     <button type="reset" id="cancelButton" class="cancel">Cancel</button>
      </div> 
-     <script>
-       //Sets button to disabled
-        document.getElementById("submitButton").disabled=true;
-  </script>
     </div>
     </form>
     <h3></h3>
