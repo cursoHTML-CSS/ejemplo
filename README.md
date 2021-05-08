@@ -5,3 +5,4 @@
 ### PS:Si pueden pueden clonar el proyecto seria mejor ya que de paso aprenderian un poco de git (hoy en dia para cualquier proyecto saber git es esencial para trabajar en equipo) y no van a tener que descargar de forma manual sino que ustedes de forma automatica se va actualizar el proyecto sino, pueden descargar el zip e ir viendo de esa manera. 
 
 ### Saludos y espero que aprendan un monton <3
+### hice un cambio
