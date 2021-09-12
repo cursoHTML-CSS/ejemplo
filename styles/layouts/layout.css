@@ -8,8 +8,8 @@
 .mainContainer{
     background:#ece8e8 ;
     margin: 5% 10% 5% 10%;    
-    height: 80%;
-    width: 80%;
+    height: 80vh;
+    width: 80vw;
     border-radius: 15%;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
